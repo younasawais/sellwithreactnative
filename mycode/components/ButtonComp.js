@@ -1,6 +1,5 @@
 import React from 'react';
 import {TouchableOpacity, Text, StyleSheet} from 'react-native';
-import {colors} from '../config.js';
 
 export default function ButtonComp({title, handlePress, btnColor}){
     const bg = {backgroundColor: btnColor}
@@ -23,8 +22,3 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     }
 });
-
-// build a Button component with round corners. Test this component in App.js.
-// - Background color: primary color
-// - Path: /components folder
-// - add touchable opacity
