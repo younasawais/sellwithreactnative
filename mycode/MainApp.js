@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, StatusBar, Text } from 'react-native';
-//import WelcomeScreen from './screens/WelcomeScreen';
 import ViewImageScreen from './screens/ViewImageScreen';
+import {colors} from './config.js'
 
 function MainApp(props) {
 
@@ -16,6 +16,8 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: StatusBar.currentHeight,
     flex: 1,
+    backgroundColor: colors.AppBG,
+    alignItems: 'center'
     //backgroundColor: '#fdd'
   }
 });
