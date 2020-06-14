@@ -8,13 +8,16 @@ function MainApp(props) {
 
   return (
     <View style={styles.container}>
-      <ListingDetailsScreen 
+      {/* <ListingDetailsScreen 
         src={require('./assets/material2/jacket.jpg')} 
         firstLine='Red Jacket for sale'
         secondLine='$ 199'
         authorPic={require('./assets/material2/mosh.jpg')}
         authorName='Mosh hamedanid'
         totalListings='5 Listings'
+        /> */}
+        <ViewImageScreen 
+          src = {require("./assets/material2/couch.jpg")} 
         />
     </View>
   );
