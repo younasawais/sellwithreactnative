@@ -3,6 +3,7 @@ import Card from '../components/Card';
 import {View, Image, StyleSheet} from 'react-native';
 import { AntDesign } from '@expo/vector-icons'; 
 
+
 function ViewImageScreen({src}){
     return(
         <View style={style.constainer}>
